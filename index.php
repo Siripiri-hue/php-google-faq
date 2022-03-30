@@ -87,9 +87,33 @@ $faq = [
         </nav>
     </header>
 
-    <main></main>
+    <main>
+        <section class="container">
 
-    <footer></footer>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul id="foot-links">
+                <li><a href="https://www.google.com/">Google</a></li>
+                <li><a href="https://about.google/">Tutto su Google</a></li>
+                <li><a href="https://policies.google.com/privacy">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms">Termini</a></li>
+            </ul>
+
+            <div id="language">
+                <i class="fa-solid fa-globe"></i>
+
+                <select name="languages" id="languages">
+                    <option value="fr">Francese</option>
+                    <option value="en">Inglese</option>
+                    <option value="it" selected>Italiano</option>
+                    <option value="es">Spagnolo</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
 
