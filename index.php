@@ -114,22 +114,20 @@ $faq = [
     <main>
         <section id="faq-wrapper" class="container">
             <?php
-                foreach ($faq as $item) 
+                foreach ($faq as $key => $content) 
                 {
-                    echo $item['question'];
-                    echo '<br>';
-                    echo $item['answer'];
-                    echo '<br>';
-            
-                    // if ($key_value == "underquestion") 
+                    echo $content['question'];
+                    echo $content['answer'];
+
+                    // if ($key == 'underquestion')
                     // {
-                    //     foreach ($key_value as $second_key => $second_key_value)
-                    //     {
-                    //         echo "array dell'array dell'array";
-                    //         echo '<br>';
-                    //         echo $y . '' . $y_value;
-                    //         echo '<br>';
-                    //     }
+                    //     echo $content['underquestion']['question'];
+                    //     echo $content['underquestion']['answer'];
+                    //     // foreach ($content as $underKey => $underContent)
+                    //     // {
+                    //     //     echo $underContent['question'];
+                    //     //     echo $underContent['answer'];
+                    //     // }
                     // }
                 }
             ?>

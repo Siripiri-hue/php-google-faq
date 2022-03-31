@@ -97,6 +97,23 @@ nav li {
     margin-top: 150px;
 }
 
+#faq-wrapper h1 {
+    color: #3C4043;
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+#faq-wrapper p, ol {
+    color: #212121;
+    font-size: 0.85rem;
+    padding: 15px 0;
+    line-height: 1.3rem;
+}
+
+#faq-wrapper a {
+    color: #3367D6;
+}
+
 /* footer */
 
 footer {
